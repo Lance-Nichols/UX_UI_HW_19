@@ -1,0 +1,637 @@
+@media only screen and (max-width: 600px) {
+    @font-face {
+        font-family: 'Migra';
+        src: url('../fonts/Migra-ExtraBold.woff2') format('woff2');
+        font-weight: 900;
+        font-style: normal;
+     }
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        position: relative;
+        align-content: center;
+    }
+    #copyright {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .sectionHeading {
+        font-size: 2em;
+    }
+    header {
+        box-sizing: content-box;
+        justify-content: center;
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+    }
+    #typographyHeading {
+        box-sizing: content-box;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: auto;
+        position: relative;
+        top: -50px;
+    }
+    .titleSectionText {
+       font-size: 4.5em;
+       font-family: 'Migra';
+       font-weight: 900;
+       letter-spacing: 1px;
+    }
+    .titleSection {
+        line-height: 1;
+        color:white;
+        justify-content: center;
+        height: 65px;
+        padding: 0;
+    }
+    .rotate {
+        height: 45px;
+        width: 45px;
+    }
+    .marquee {
+        font-size: 1em;
+     } 
+     .list-inline img {
+        height:10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .linkItem a {
+        width: auto;
+        height: 20px;
+        display: inline;
+        padding: 10px;
+        font-size: smaller;
+        text-align: center;
+    }
+    #profile {
+        /*border: 1px solid salmon;*/
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    #profilePic {
+        display: none;
+    }
+    #profile img {
+        height: 380px;
+        width: 380px;
+    }
+    
+    #profileIntro {
+        font-size: 1em;
+        padding: 20px;
+    }
+    .profileContent {
+        display: block;
+    }
+    .divider2 {
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    #diamonShape {
+        height: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media screen and (min-width: 601px) {
+    .titleSectionText {
+        font-size: 10em;
+        height: 130px;
+        bottom: 0;
+     }
+     .sectionHeading {
+        font-size: 5em;
+    }
+    .linkItem a {
+        padding-right: 30px;
+    }
+    .rotate {
+        height: 50px;
+        width: 50px;
+    }
+    #profilePic {
+        height: 550px;
+        width: 550px;
+        z-index: 1;
+        position: relative;
+        right: -10px;
+        top: -10px;
+        display: block;
+    }
+    #profilePic {
+        background-image: url(../images/profilePictureLanceD.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        filter: drop-shadow(3px 4px 10px rgb(200, 89, 89));
+    }
+    #profile img {
+        display: none;
+    }
+    
+    #profileIntro {
+        height: 350px;
+        min-width: 450px;
+        font-size: 1.3em;
+        position: relative;
+        left: -55px;
+        top: 100px;
+        z-index: 2;
+        backdrop-filter: blur(50px);
+        padding: 0 40px;
+    }
+    .marquee {
+        font-size: 3em;
+        padding-top: 10px;
+     } 
+    .typeHead6 {
+        padding-bottom: 150px;
+    }
+    .list-inline img {
+        height:30px;
+    }
+    #projectSkillsSection {
+        padding-bottom: 80px;
+    }
+    #diamonShape {
+        height: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #introduceHeading {
+        position: absolute;
+        display: block;
+        z-index: 4;
+        top: 0px;
+        padding-top: 20px;
+        text-shadow: 2px 2px 8px #000000;
+    }
+    #profile {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+  }
+
+/*
+Font: 		Amient
+Style: 		Regular
+URL: 		https://www.youworkforthem.com/font/T14212/amient
+Foundry: 	Piotr Lapa
+Foundry: 	https://www.youworkforthem.com/designer/1166/piotr-lapa
+Copyright:	Copyright © 2021 by Piotr _apa. All rights reserved.
+Version: 	17
+Created:	June 05, 2021
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Amient-Regular';
+	src: url('../fonts/amient-regular.eot');
+	src: url('../fonts/amient-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/amient-regular.woff2') format('woff2'),
+	     url('../fonts/amient-regular.woff') format('woff'),
+	     url('../fonts/amient-regular.ttf') format('truetype'),
+	     url('../fonts/amient-regular.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+ @font-face {
+    font-family: 'Migra';
+    src: url('../fonts/Migra-ExtraBold.woff2') format("woff2"),
+    url('../fonts/Migra-Extrabold.ttf') format("truetype"),
+    url('../fonts/Migra-Extrabold.otf') format("opentype"),
+    url("../fonts/Migra-Extrabold.woff") format("woff"),
+    url("../fonts/Migra-Extrabold.eot") format("eot");
+    font-weight: 900;
+    font-style: normal;
+ }
+ /*@font-face {
+    font-family: 'Migra';
+    src: url('../fonts/Migra-ExtraLight.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'Migra';
+    src: url('../fonts/Migra-Regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+ }*/
+ @font-face {
+    font-family: 'NeueMontreal';
+    src: url('../fonts/NeueMontreal-Light.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'NeueMontreal';
+    src: url('../fonts/NeueMontreal-Bold.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'NeueMontreal';
+    src: url('../fonts/NeueMontreal-Regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+ }
+body {
+    margin: 0;
+    background-image: url(../images/backgroundNoisePattern.jpeg);
+    background-repeat: repeat;
+    background-color: black;
+    box-sizing: content-box;
+    color: white;
+}
+ .headerNav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 5px;
+     box-sizing: content-box;
+     background-image: linear-gradient(rgb(0, 0, 0), #00000000);
+ }
+ header {
+    text-align: center;
+    box-sizing: border-box;
+ }
+
+#logoContainer {
+    height: 50px;
+    width: 100px;
+    /*border: 1px solid saddlebrown;*/
+    padding: 20px ;
+}
+#headerLinks {
+    display: inline;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.linkItem a:hover {
+    font-family: 'NeueMontreal';
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+ .linkItem a {
+     width: 100px;
+     height: 20px;
+     display: inline;
+     font-family: 'NeueMontreal';
+     font-weight: 900;
+     text-align: center;
+     justify-content: center;
+     color: #cb1860;;
+     text-decoration: none;
+ }
+ .rotate {
+    animation: rotation 10s infinite linear;
+    background-color: #000000;
+    border-radius: 30px;
+}
+.rotatingIcon{
+    align-items: flex-end;
+    display: flex;
+    max-height: 120px;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+ .breakRow {
+    flex-basis: 100%;
+}
+#ampersand {
+    font-family: "migra";
+    line-height: 1.38;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    color: #00000000;
+}
+ #typographyHeading {
+     box-sizing: content-box;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+ }
+ .titleSectionText {
+    font-family: 'Amient-Regular';
+    font-weight: normal;
+    letter-spacing: 1px;
+    vertical-align: bottom;
+    line-height: 50px;
+ }
+
+ .titleSection {
+     line-height: 1;
+     color: white;
+     /*border: 1px solid aqua;*/
+     justify-content: center;
+ }
+
+ .marquee {
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: content-box;
+    position: relative;
+    font-family: 'Migra';
+    font-weight: 900;
+    position: relative;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    background-color: #000000;
+ } 
+ .marquee::before {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 60px;
+    content: "";
+    z-index: 1;
+    left: 0;
+    /*background: linear-gradient(to right, black 3%, transparent 100%);*/
+    }
+ .marquee::after {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 60px;
+    content: "";
+    z-index: 1;
+    right: 0;
+    /*background: linear-gradient(to left, black 3%, transparent 100%);*/
+ }
+  
+  
+  .marquee__content {
+    width: 300% !important;
+    display: flex;
+    line-height: 60px;
+    animation: marquee 20s linear infinite forwards;
+    overflow: hidden;
+  }
+  .marquee__content2 {
+    width: 300% !important;
+    display: flex;
+    line-height: 60px;
+    animation: marquee 20s linear infinite forwards;
+    overflow: hidden;
+  }
+  
+  .list-inline {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    /* reset list */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-66.6%); }
+  }
+  .list-inline li {
+    font-family: 'Migra';
+    font-weight: 900;
+    color: white;
+    letter-spacing: 3px;
+  }
+  
+  #projectSkillsSection {
+      font-family: 'Migra';
+      display: block;
+      text-align: center;
+      align-content: center;
+      background-color: #0000003e;
+  }
+  .breakLineStar {
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: -35px;
+  }
+
+  #projectSectionContainer {
+      padding-top: 10px;
+      padding-bottom: 120px;
+  }
+
+  #skillsSectionContainer {
+      padding-top: 20px;
+      padding-bottom: 50px;
+      /*border: 2px solid orangered;*/
+  }
+  .skillContainer
+  #projectSection .sectionHeading {
+      display: block;
+      flex-basis: 100%;
+  }
+  .projects {
+    border: 0px;
+    padding-bottom: 30px;
+  }
+  .projectPreviews {
+      /*display: inline-flex;
+      color: white;
+      padding: 20px;
+      width: 25%;
+      text-align: center;
+      align-items: center;
+      border: 2px solid salmon;
+      align-items: center;
+      display: block;*/
+      width: 25%;
+      min-width: 350px;
+      display: block;
+      height: auto;
+      padding: 20px;
+      text-align: left;
+      /*border: 2px solid yellowgreen;*/
+  }
+  .projectImage {
+    background-size: cover;
+    background-color: white;
+    width: 100%;
+    height: 250px;
+  }
+  .projectDescription {
+    font-family: 'NeueMontreal';
+    text-align: left;
+  }
+  .projectDesc a {
+      text-decoration: none;
+      color: white;
+  }
+  .sectionHeading {
+      font-family: 'Migra';
+      font-weight: 900;
+      color: white;
+      letter-spacing: 2px;
+      /*border: 2px solid yellowgreen;*/
+  }
+  .viewProjectButton {
+      padding: 10px 20px;
+      border-radius: 5px;
+      width: 150px;
+      background-image: linear-gradient(to bottom right, #cb1860, #d35b2b);
+      display: inline-block;
+      font-family: 'NeueMontreal';
+      font-weight: 500;
+      letter-spacing: 1px;
+      margin: 10px;
+      cursor: pointer;
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0);
+  }
+  .viewProjectButton:hover {
+    background-image: linear-gradient(to bottom right, #00000000, #00000000);
+    font-family: 'NeueMontreal';
+    font-weight: 900;
+    border: 1px solid white;
+}
+.viewProjectButton:focus {
+    background-image: linear-gradient(to bottom right, #d35b2b, #cb1860);
+    font-family: 'NeueMontreal';
+    font-weight: 900;
+    border: 1px solid white;
+}
+.viewProjectButton:active {
+    background-image: linear-gradient(to bottom right, #00000000, #00000000);
+    font-family: 'NeueMontreal';
+    font-weight: 900;
+    border: 1px solid white;
+}
+
+  .flexContainer {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      /*border: 2px solid yellowgreen;*/
+  }
+  #skillsSection {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+   #viewAll {
+      display: block;
+  }
+  .skillContainer {
+      max-width: 30%;
+      min-width: 300px;
+      display: block;
+      height: auto;
+      padding: 20px;
+      justify-content: center;
+  }
+  .skillContainer h3, .skillContainer p {
+      border: 0px;
+      letter-spacing: 1px;
+      border-left: 1px solid white;
+      border-right: 1px solid white;
+      border-bottom: 1px solid white;
+      margin: 0;
+      width: 100%;
+      padding: 15px 0;
+  }
+  .skillsImage {
+    height: 200px;
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+}
+
+#doubleDiamondShape, #diamondDesign, #diamondToolbelt {
+    width: 200px;
+    margin: auto;
+}
+footer {
+    font-family: 'NeueMontreal';
+    padding: 30px 20px 20px 20px;
+    color: white;
+    display: flex;
+    box-sizing: content-box;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #000000);
+}
+#footerLinks {
+    display: inline;
+    height: auto;
+    display: flex;
+    align-items: center;
+
+}
+#aboutMe {
+    text-align: center;
+    color: white;
+    font-family: 'NeueMontreal';
+    display: block;
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+#profileSection {
+    display: absolute;
+    /*border: 1px solid yellow;*/
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.profileContent {
+    display: flex;
+    align-items: center;
+}
+
+#profileIntro {
+    text-align: left;
+    background-color: #000000;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 3px 4px 65px 10px rgba(0, 0, 0, 0.54);
+    margin-top: 20px;
+    border: 1px solid white;
+}
+#contactMe {
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+#contactMe .sectionHeading {
+    display: block;
+    flex-basis: 100%;
+}
+#contactMeContainer {
+        font-family: 'Migra';
+        display: block;
+        text-align: center;
+        align-content: center;
+        padding-bottom: 100px;
+}
