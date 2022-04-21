@@ -447,7 +447,7 @@ body {
       padding-bottom: 50px;
       /*border: 2px solid orangered;*/
   }
-  .skillContainer
+
   #projectSection .sectionHeading {
       display: block;
       flex-basis: 100%;
@@ -543,22 +543,53 @@ body {
       display: block;
   }
   .skillContainer {
-      max-width: 30%;
+      width: 300px;
       min-width: 300px;
       display: block;
       height: auto;
-      padding: 20px;
+      padding: 0px;
       justify-content: center;
+      /*border: 1px solid salmon;*/
+      box-sizing: content-box;
+      margin: 30px;
   }
-  .skillContainer h3, .skillContainer p {
+  .wrapper {
       border: 0px;
       letter-spacing: 1px;
       border-left: 1px solid white;
       border-right: 1px solid white;
       border-bottom: 1px solid white;
       margin: 0;
-      width: 100%;
-      padding: 15px 0;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      box-sizing: content-box;
+      width: 300px;
+  }
+.wrapper h3 {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+  .skillTag {
+      font-family: "NeueMontreal";
+      border: 1px solid white;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 300px;
+      width: 1fr;
+  }
+  .wrapperTags {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 280px;
+    justify-content: center;
+    align-content: center;
+    padding: 15px 10px
   }
   .skillsImage {
     height: 200px;
