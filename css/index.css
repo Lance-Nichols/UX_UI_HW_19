@@ -80,7 +80,7 @@
     #profilePic {
         display: none;
     }
-    #profile img {
+    #lancePortrait {
         display: block;
         height: 380px;
         width: 380px;
@@ -135,7 +135,7 @@
         background-size: cover;
         filter: drop-shadow(3px 4px 10px rgb(200, 89, 89));
     }
-    #profile img {
+    #lancePortrait {
         display: none;
     }
     
