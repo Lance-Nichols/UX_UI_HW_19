@@ -81,7 +81,9 @@
         display: none;
     }
     #lancePortrait {
+        background-image: url("../images/profilePictureLance.jpg");
         display: block;
+        background-size: cover;
         height: 380px;
         width: 380px;
     }
