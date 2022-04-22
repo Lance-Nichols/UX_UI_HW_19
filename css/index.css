@@ -24,7 +24,7 @@
     header {
         box-sizing: content-box;
         justify-content: center;
-        height: 80vh;
+        height: 70vh;
         width: 100vw;
         display: flex;
     }
