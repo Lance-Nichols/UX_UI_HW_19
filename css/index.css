@@ -24,7 +24,7 @@
     header {
         box-sizing: content-box;
         justify-content: center;
-        height: 80vh;
+        height: 60vh;
         width: 100vw;
         display: flex;
     }
@@ -81,6 +81,7 @@
         display: none;
     }
     #profile img {
+        display: block;
         height: 380px;
         width: 380px;
     }
@@ -605,7 +606,6 @@ header {
       padding-top: 5px;
       padding-bottom: 5px;
       border-radius: 300px;
-
 }
 
 .wrapperTags {
