@@ -673,6 +673,7 @@ header {
     width: 100%;
     border: 1px solid white;
     display: flex;
+    justify-content: center;
 }
 
 #doubleDiamondShape, #diamondDesign, #diamondToolbelt {
