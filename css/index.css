@@ -100,7 +100,9 @@
         width: 70%; 
         height: auto;
     }
-
+    .sectionHeading {
+        font-size: 5em;
+    }
     .linkItem a {
         padding-right: 30px;
     }
@@ -318,12 +320,6 @@ header {
     align-items: flex-end;
     display: flex;
 }
-#typeStar {
-    height: 50px;
-    position: relative;
-    top: 30px;
-    margin-right: 8px;
-}
 
 @keyframes rotation {
   from {
@@ -332,41 +328,6 @@ header {
   to {
     transform: rotate(359deg);
   }
-}
- .breakRow {
-    flex-basis: 100%;
-}
-#ampersand {
-    font-family: "migra";
-    line-height: 1.38;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-    color: #00000000;
-}
-
-#typographyHeading {
-     box-sizing: content-box;
-     display: flex;
-     flex-flow: row wrap;
-     justify-content: center;
-     align-items: center;
-     position: relative;
-     top: 50px;
-}
-
-.titleSectionText {
-    font-family: 'Amient-Regular';
-    font-weight: normal;
-    letter-spacing: 1px;
-    vertical-align: bottom;
-    line-height: 50px;
-}
-
-.titleSection {
-     line-height: 1;
-     color: white;
-     /*border: 1px solid aqua;*/
-     justify-content: center;
 }
 
 .marquee {
@@ -467,8 +428,6 @@ header {
       display: block;
       flex-basis: 100%;
 }
-
-
 
 .projectPreviews {
       border: 1px solid white;
