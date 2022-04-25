@@ -21,35 +21,21 @@
     .sectionHeading {
         font-size: 3em;
     }
+
+    #lottieHeader {
+        width: 95%; 
+        height: auto;
+    }
+
     header {
         box-sizing: content-box;
         justify-content: center;
+        align-items: top;
         height: 70vh;
         width: 100vw;
         display: flex;
     }
-    #typographyHeading {
-        box-sizing: content-box;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        margin: auto;
-        position: relative;
-        top: -50px;
-    }
-    .titleSectionText {
-       font-size: 4.5em;
-       font-family: 'Migra';
-       font-weight: 900;
-       letter-spacing: 1px;
-    }
-    .titleSection {
-        line-height: 1;
-        color:white;
-        justify-content: center;
-        height: 65px;
-        padding: 0;
-    }
+
     .rotate {
         height: 45px;
         width: 45px;
@@ -109,14 +95,12 @@
     }
 }
 @media screen and (min-width: 601px) {
-    .titleSectionText {
-        font-size: 10em;
-        height: 130px;
-        bottom: 0;
-     }
-     .sectionHeading {
-        font-size: 5em;
+
+    #lottieHeader {
+        width: 70%; 
+        height: auto;
     }
+
     .linkItem a {
         padding-right: 30px;
     }
@@ -285,7 +269,12 @@ header {
     text-align: center;
     box-sizing: border-box;
     height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
 }
+
 
 #logoContainer {
     height: 50px;
