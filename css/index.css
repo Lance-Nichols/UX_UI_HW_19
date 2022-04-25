@@ -28,12 +28,8 @@
     }
 
     header {
-        box-sizing: content-box;
-        justify-content: center;
-        align-items: top;
-        height: 65vh;
+        height: 70vh;
         width: 100vw;
-        display: flex;
     }
 
     .rotate {
@@ -99,6 +95,9 @@
     #lottieHeader {
         width: 70%; 
         height: auto;
+    }
+    header {
+        height: 80vh;
     }
     .sectionHeading {
         font-size: 5em;
@@ -270,7 +269,6 @@ body {
 header {
     text-align: center;
     box-sizing: border-box;
-    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
