@@ -12,8 +12,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/index.css">
-        <script
-                    src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/4d59472489.js" crossorigin="anonymous"></script>
     </head>
@@ -77,30 +76,33 @@
                     </div>
                 </div>
                 <section id="projectSectionContainer">
-                        <h1 class="sectionHeading">Recent projects</h1>
+                        <h1 class="sectionHeading desktopSectionHeading">Recent projects</h1>
+                        <h1 class="sectionHeading mobileSectionHeading">Recent<br>projects</h1> 
                         <section class="flexContainer">
                             <div  class="projectPreviews">
                                 <div class="card">
-                                    <div class="projectImage"></div>
+                                    <div id="deseImage" class="projectImage"></div>
                                     <div class="projectDesc">
                                         <h2 class="projectTitle">DESE website redesign</h2>
-                                        <p class="projectDescription">A redesign that’s simple and effective, that breaks free from the stock standard template design. A modern website for the modern voice of Australia’s youth.</p>
+                                        <p class="projectDescription">The Department of Education, Skills and <br>Employment website redesign. The result<br>of combining visually appealing UI and a functional and intuitive navigation system.</p>
                                         <h3><a href="#">View project <i class="fa-solid fa-circle-arrow-right fa-2xs"></i></a></h3>
                                     </div>
                                 </div>
                             </div>
                             <div class="projectPreviews">
                                 <div class="card">
-                                    <div class="projectImage"></div>
+                                    <div id="whynotImage" class="projectImage"></div>
                                     <div class="projectDesc">
                                         <h2 class="projectTitle">Whynot website redesign</h2>
-                                        <p class="projectDescription">A redesign that’s simple and effective, that breaks free from the stock standard template design. A modern website for the modern voice of Australia’s youth.</p>
+                                        <p class="projectDescription">A redesign that’s simple and effective, that breaks free from the stock standard template design. A modern website for the modern <br>voice of Australia’s youth.</p>
                                         <h3><a href="#">View project <i class="fa-solid fa-circle-arrow-right fa-2xs"></i></a></h3>
                                     </div>
                                 </div>
                             </div>
                             
                         </section>
+                        <h2 class="subHeading desktopSectionHeading">Check out more of my work</h2>
+                        <h2 class="subHeading mobileSectionHeading">Check out more <br>of my work</h2>
                         <a href="#"><div class="viewProjectButton">UX/UI Portfolio</div></a>
                         <a href="https://vimeo.com/lancenichols"><div class="viewProjectButton">Motion Graphics</div></a>
                         <a href="#"><div class="viewProjectButton">Graphic Design</div></a>
@@ -160,7 +162,8 @@
                     </svg>
                 </div>
                 <section id="skillsSectionContainer">
-                    <h1 class="sectionHeading">My Design Skills</h1>
+                    <h1 class="sectionHeading desktopSectionHeading">My design skills</h1>
+                    <h1 class="sectionHeading mobileSectionHeading">My design<br>skills</h1> 
                     <div class="flexContainer">
                         <div class="skillContainer">
                             <div class="skillsImage">
@@ -261,10 +264,11 @@
                 </div>
                 <section id="profileSection">
                     <div id="profile">
-                        <h1 id="introduceHeading" class="sectionHeading">Let me introduce myself.</h1>
+                        <h1 id="introduceHeading" class="sectionHeading desktopSectionHeading">Let me introduce myself.</h1>
+                        <h1 class="sectionHeading mobileSectionHeading">Let me<br>introduce<br>myself.</h1>    
                         <div id="lancePortrait"></div>
                         <div id="profilePic"></div>
-                        <div id="profileIntro" class="profileContent"><p>
+                        <div id="profileIntro" class="profileContent"><span><p>
                                 I'm Lance, I’m a UX/UI and digital designer <br>
                                 with a background in graphic design, trained <br>
                                 at Monash University’s UX/UI boot camp. <br><br>
@@ -273,7 +277,8 @@
                                 user experiences <br>across desktop, mobile, tablet 
                                 and other <br>channels. My strengths lay in creativity,<br> 
                                 teamwork, and building projects from <br>end to end.</p>
-                            </div>
+                                <h3><a href="#">Find out more <i class="fa-solid fa-circle-arrow-right fa-2xs"></i></a></h3></span>
+                        </div>
                     </div>
                 </section>
             </section>
@@ -331,7 +336,18 @@
                 </svg>
             </div>
             <section id="contactMeContainer">
-                <h1 id="contactHeading" class="sectionHeading">Let's work together</h1>        
+                <h1 id="contactHeading" class="sectionHeading desktopSectionHeading">Let's work together</h1>
+                <h1 id="contactHeading" class="sectionHeading mobileSectionHeading">Let's work<br>together</h1>        
+                <div id="contactMe">
+                    <div id="contactMeForm">
+                        <form>
+
+                        </form>
+                    </div>
+                    <div id="contactMeImage">
+
+                    </div>
+                </div>    
             </section>     
         </main><!-- MAIN CONTENT END-->
         <footer><!-- FOOTER START-->
