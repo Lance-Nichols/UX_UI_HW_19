@@ -301,8 +301,13 @@ header {
     justify-content: center;
     align-items: center;
     padding-bottom: 80px;
+    flex-direction: column;
 }
 
+#lottieHeader {
+    display: block;
+    z-index: 1;
+}
 
 #logoContainer {
     height: 50px;

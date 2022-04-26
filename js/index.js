@@ -20,7 +20,8 @@ LottieInteractivity.create({
             forceFlag: false
         }
     ]
-});*/
+}); 
+*/
 LottieInteractivity.create({
   player:'#lottieHeader',
   mode:"cursor",
