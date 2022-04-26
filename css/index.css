@@ -631,7 +631,7 @@ header {
       border-width: 1px;
       border-style: solid;
       border-image-slice: 1;
-      border-radius: 5px;
+      border-radius: 0px;
 }
 
 .viewProjectButton:hover {
