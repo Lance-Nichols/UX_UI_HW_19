@@ -22,6 +22,18 @@ LottieInteractivity.create({
     ]
 }); 
 */
+
+LottieInteractivity.create({
+  player: '#lottieHeader',
+  mode: 'chain',
+  actions: [
+      {
+          state: 'autoplay',
+          repeat: 0
+      },
+  ]
+});
+
 LottieInteractivity.create({
   player:'#lottieHeader',
   mode:"cursor",
