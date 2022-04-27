@@ -43,6 +43,7 @@ LottieInteractivity.create({
       }
 ]
 });
+
 LottieInteractivity.create({
   player:'#emailMeButton',
   mode:"cursor",
