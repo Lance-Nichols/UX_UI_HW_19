@@ -854,6 +854,7 @@ footer {
     display: inline-flex;
     list-style: none;
     align-items: center;
+    justify-content: center;
 }
 
 .rotateDiamond {
@@ -872,8 +873,4 @@ footer {
   to {
     transform: rotate(359deg);
   }
-}
-
-#contactList {
-    border: 0;
 }
