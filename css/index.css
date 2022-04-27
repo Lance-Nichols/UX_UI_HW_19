@@ -98,6 +98,13 @@
         position: relative;
         top: -30px;
     }
+    #emailMeButton {
+        width: 200px; 
+        height: 181px;
+    }
+    #contactList {
+        height: 100px;
+    }
 }
 @media screen and (min-width: 601px) {
 
@@ -156,7 +163,7 @@
         backdrop-filter: blur(50px);
         padding: 20px 40px;
     }
-    #profileIntro p {
+    #profileIntro p, #profileIntro h3 {
         font-size: 1.3em;
     }
     .marquee {
@@ -288,6 +295,10 @@
           -moz-animation-name: fadeInUp;
           -o-animation-name: fadeInUp;
           animation-name: fadeInUp;
+      }
+      #emailMeButton {
+            width: 500px; 
+            height: auto;
       }
   }  
   @media only screen  and (min-width : 1224px) {
@@ -821,9 +832,10 @@ footer {
     border: 1px solid white;
 }
 #contactMe {
-    height: 350px;
+    height: auto;
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 #contactMe .sectionHeading {
     display: block;
@@ -838,3 +850,30 @@ footer {
         margin-top: -30px;
 }
 
+#contactList {
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+}
+
+.rotateDiamond {
+    animation: rotation2 5s infinite linear;
+
+}
+.rotatingDiamond {
+    align-items: flex-end;
+    display: flex;
+}
+
+@keyframes rotation2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#contactList {
+    border: 0;
+}

@@ -43,6 +43,15 @@ LottieInteractivity.create({
       }
 ]
 });
+LottieInteractivity.create({
+  player:'#emailMeButton',
+  mode:"cursor",
+  actions: [
+      {
+          type: "toggle"
+      }
+]
+});
 
 jQuery(function($) {
   
