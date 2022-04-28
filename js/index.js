@@ -10,7 +10,8 @@ $(function() {
     $tickerText.clone().appendTo(marqueeClass2);
     $tickerText.clone().appendTo(marqueeClass2);
   });
-/*
+
+  /*
 LottieInteractivity.create({
     player:'#lottieHeader',
     mode:"cursor",
@@ -22,6 +23,7 @@ LottieInteractivity.create({
     ]
 }); 
 */
+
 
 LottieInteractivity.create({
   player: '#lottieHeader',

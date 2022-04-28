@@ -4,6 +4,7 @@
         src: url('../fonts/Migra-ExtraBold.woff2') format('woff2');
         font-weight: 900;
         font-style: normal;
+        letter-spacing: 1px
      }
     .mobileSectionHeading {
         display: block;
@@ -126,8 +127,9 @@
     .sectionHeading {
         font-size: 5em;
     }
-    .linkItem a {
-        padding-right: 30px;
+    .linkItemNav a {
+        padding-right: 20px;
+        padding-left: 20px;
     }
     .rotate {
         height: 50px;
@@ -346,6 +348,7 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
     url("../fonts/Migra-Extrabold.eot") format("eot");
     font-weight: 900;
     font-style: normal;
+    letter-spacing: 1px
 }
  /*@font-face {
     font-family: 'Migra';
@@ -364,12 +367,14 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
     src: url('../fonts/NeueMontreal-Light.woff2') format('woff2');
     font-weight: 100;
     font-style: normal;
+    letter-spacing: 1px
 }
 @font-face {
     font-family: 'NeueMontreal';
     src: url('../fonts/NeueMontreal-Bold.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
+    letter-spacing: 1px
 }
 
 @font-face {
@@ -377,6 +382,7 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
     src: url('../fonts/NeueMontreal-Regular.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
+    letter-spacing: 1px
 }
 body {
     margin: 0;
@@ -387,6 +393,9 @@ body {
     color: white;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    letter-spacing: 1px
+}
 
 .headerNav {
      display: flex;
@@ -428,10 +437,10 @@ header {
 
 .linkItem a:hover {
     font-family: 'NeueMontreal';
-    font-weight: 900;
+    font-weight: 500;
     cursor: pointer;
     color: white;
-    text-decoration: none;
+    text-decoration: underline #cb1860 3px;
 }
 
 .linkItem a {
@@ -439,12 +448,15 @@ header {
      height: 20px;
      display: inline;
      font-family: 'NeueMontreal';
-     font-weight: 900;
+     font-weight: 500;
      text-align: center;
      justify-content: center;
-     color: #cb1860;;
+     color: white;
      text-decoration: none;
+     letter-spacing: 1px;
+     /* border: 1px solid yellowgreen; */
 }
+
 .rotate {
     animation: rotation 10s infinite linear;
     background-color: #000000;
@@ -720,6 +732,7 @@ header {
       padding-top: 5px;
       padding-bottom: 5px;
       border-radius: 300px;
+      letter-spacing: 1px;
 }
 
 .wrapperTags {
@@ -789,7 +802,7 @@ footer {
     color: white;
     display: flex;
     box-sizing: content-box;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     background-image: linear-gradient(rgba(0, 0, 0, 0), #000000);
 }
 
@@ -798,6 +811,28 @@ footer {
     height: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#copyright {
+    margin-left: 0;
+    margin-right: auto;
+    width: 350px;
+}
+#creditsLine {
+    margin-right: 0;
+    margin-left: auto;
+    width: 350px;
+    text-align: right;
+}
+
+#creditsLine, #copyright {
+    font-weight: 100;
+    font-size: .8em;
+    height: 30px;
+    position: relative;
+    bottom: 0px;
 }
 
 #aboutMe {
@@ -875,3 +910,8 @@ footer {
     transform: rotate(359deg);
   }
 }
+
+.linkItemFooter {
+    padding: 15px;
+}
+
