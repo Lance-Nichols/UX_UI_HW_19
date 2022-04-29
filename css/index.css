@@ -872,6 +872,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
+    cursor: url('https://assets6.lottiefiles.com/packages/lf20_09m8c99j.json');
 }
 #contactMe .sectionHeading {
     display: block;
@@ -915,3 +916,11 @@ footer {
     padding: 15px;
 }
 
+.hover-1 {
+    background: linear-gradient(#d35b2b 0 0) var(--p,0)/var(--p,0) no-repeat;
+    transition: .4s,background-position 0s;
+  }
+  .hover-1:hover {
+    --p: 100%;
+    color: #fff;
+  }
