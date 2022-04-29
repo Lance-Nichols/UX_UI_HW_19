@@ -301,7 +301,7 @@
       #emailMeButton {
             width: 500px; 
             height: auto;
-            cursor: url('https://raw.githubusercontent.com/Lance-Nichols/UX_UI_HW_19/main/images/replayCursor.png');
+            cursor: url(../images/pressButtonPointer60.png), 28 23, auto;
       }
   }  
   @media only screen  and (min-width : 1224px) {
@@ -419,6 +419,7 @@ header {
 #lottieHeader {
     display: block;
     z-index: 1;
+    cursor: url(../images/replayCursor60.png), 27 22, auto;
 }
 
 #logoContainer {
