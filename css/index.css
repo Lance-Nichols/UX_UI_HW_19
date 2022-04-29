@@ -301,7 +301,7 @@
       #emailMeButton {
             width: 500px; 
             height: auto;
-            cursor: url('../images/pressButtonPointer60.png'), 28 23, pointer;
+            cursor: url('../images/pressButtonPointer60.png'), pointer;
       }
   }  
   @media only screen  and (min-width : 1224px) {
@@ -419,7 +419,7 @@ header {
 #lottieHeader {
     display: block;
     z-index: 1;
-    cursor: url('../images/replayCursor60.png'), 27 22, auto;
+    cursor: url('../images/replayCursor60.png'), pointer;
 }
 
 #logoContainer {
@@ -873,7 +873,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    cursor: url(../images/pressButtonPointer.png);
+    cursor: url('../images/pressButtonPointer.png'), pointer;
     
 }
 #contactMeContainer {
