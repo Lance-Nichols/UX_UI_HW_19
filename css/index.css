@@ -872,8 +872,14 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    cursor: url('https://assets6.lottiefiles.com/packages/lf20_09m8c99j.json');
+    cursor: url(../images/pressButtonPointer.png);
+    
 }
+#contactMeContainer * {
+    cursor: url('../images/pressButtonPointer.png');
+}
+
+
 #contactMe .sectionHeading {
     display: block;
     flex-basis: 100%;
