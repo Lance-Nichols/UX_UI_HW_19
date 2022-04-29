@@ -25,8 +25,9 @@
         align-content: center;
     }
     #copyright {
-        padding-top: 20px;
+        margin-top: 20px;
         text-align: center;
+        width: 100%;
     }
     .sectionHeading {
         font-size: 3em;
@@ -105,6 +106,18 @@
     }
     #contactList {
         height: 100px;
+    }
+    #creditsLine {
+        display: none;
+    }
+    .linkItemFooter {
+        width: auto;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 @media screen and (min-width: 601px) {
@@ -203,6 +216,9 @@
         justify-content: center;
         position: relative;
         top: -35px;
+    }
+    .linkItemFooter {
+        padding: 15px;
     }
   }
 
@@ -303,6 +319,10 @@
             height: auto;
             cursor: pointer;
       }
+      .linkItemFooter {
+        padding: 15px;
+    }
+    
   }  
   @media only screen  and (min-width : 1224px) {
 
@@ -517,7 +537,7 @@ header {
     width: 300% !important;
     display: flex;
     line-height: 60px;
-    animation: marquee 20s linear infinite forwards;
+    animation: marquee 50s linear infinite forwards;
     overflow: hidden;
 }
 
@@ -525,7 +545,7 @@ header {
     width: 300% !important;
     display: flex;
     line-height: 60px;
-    animation: marquee 20s linear infinite forwards;
+    animation: marquee 50s linear infinite forwards;
     overflow: hidden;
 }
   
@@ -818,12 +838,12 @@ footer {
 #copyright {
     margin-left: 0;
     margin-right: auto;
-    width: 350px;
+    width: 250px;
 }
 #creditsLine {
     margin-right: 0;
     margin-left: auto;
-    width: 350px;
+    width: 250px;
     text-align: right;
 }
 
@@ -911,7 +931,7 @@ footer {
   }
 }
 
-.linkItemFooter {
-    padding: 15px;
-}
 
+footer * {
+    border: 1px solid yellowgreen;
+}
