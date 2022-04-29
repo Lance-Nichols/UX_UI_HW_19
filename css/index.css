@@ -873,14 +873,8 @@ footer {
     height: auto;
     width: 100%;
     display: flex;
-    justify-content: center;
-    cursor: url('../images/pressButtonPointer60.png'), pointer;
-    
+    justify-content: center;    
 }
-#contactMeContainer {
-    cursor: url('../images/pressButtonPointer60.png'), pointer;
-}
-
 
 #contactMe .sectionHeading {
     display: block;
