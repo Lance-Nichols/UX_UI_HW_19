@@ -301,7 +301,7 @@
       #emailMeButton {
             width: 500px; 
             height: auto;
-            cursor: pointer;
+            cursor: url('https://raw.githubusercontent.com/Lance-Nichols/UX_UI_HW_19/main/images/replayCursor.png');
       }
   }  
   @media only screen  and (min-width : 1224px) {
@@ -875,8 +875,8 @@ footer {
     cursor: url(../images/pressButtonPointer.png);
     
 }
-#contactMeContainer * {
-    cursor: url('../images/pressButtonPointer.png');
+#contactMeContainer {
+    cursor: url('https://raw.githubusercontent.com/Lance-Nichols/UX_UI_HW_19/main/images/replayCursor.png');
 }
 
 
