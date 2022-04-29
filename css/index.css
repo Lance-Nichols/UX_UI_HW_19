@@ -317,7 +317,7 @@
       #emailMeButton {
             width: 500px; 
             height: auto;
-            cursor: pointer;
+            cursor: url('../images/pressButtonPointer60.png'), pointer;
       }
       .linkItemFooter {
         padding: 15px;
@@ -439,7 +439,9 @@ header {
 #lottieHeader {
     display: block;
     z-index: 1;
+    cursor: url('../images/replayCursor60.png'), pointer;
 }
+
 
 #logoContainer {
     height: 50px;
@@ -891,8 +893,9 @@ footer {
     height: auto;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }
+
 #contactMe .sectionHeading {
     display: block;
     flex-basis: 100%;
@@ -931,7 +934,11 @@ footer {
   }
 }
 
-
-footer * {
-    border: 1px solid yellowgreen;
-}
+.hover-1 {
+    background: linear-gradient(#d35b2b 0 0) var(--p,0)/var(--p,0) no-repeat;
+    transition: .4s,background-position 0s;
+  }
+  .hover-1:hover {
+    --p: 100%;
+    color: #fff;
+  }
