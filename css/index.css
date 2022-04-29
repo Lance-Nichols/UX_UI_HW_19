@@ -873,11 +873,11 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    cursor: url('../images/pressButtonPointer.png'), pointer;
+    cursor: url('../images/pressButtonPointer60.png'), pointer;
     
 }
 #contactMeContainer {
-    cursor: url('https://raw.githubusercontent.com/Lance-Nichols/UX_UI_HW_19/main/images/replayCursor.png'), pointer;
+    cursor: url('../images/pressButtonPointer60.png'), pointer;
 }
 
 
