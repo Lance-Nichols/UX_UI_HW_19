@@ -443,7 +443,6 @@ header {
 #lottieHeader {
     display: block;
     z-index: 1;
-    cursor: url('../images/replayCursor60.png'), pointer;
 }
 
 
