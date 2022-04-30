@@ -219,6 +219,8 @@
     }
     .linkItemFooter {
         padding: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
   }
 
@@ -320,7 +322,9 @@
             cursor: url('../images/pressButtonPointer60.png'), pointer;
       }
       .linkItemFooter {
-        padding: 15px;
+        padding: 5px 10px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     
   }  
@@ -462,7 +466,7 @@ header {
     font-weight: 500;
     cursor: pointer;
     color: white;
-    text-decoration: underline #cb1860 3px;
+    text-decoration: underline white 1px;
 }
 
 .linkItem a {
@@ -579,7 +583,6 @@ header {
       display: block;
       text-align: center;
       align-content: center;
-      background-color: #0000003e;
 }
 
 #projectSectionContainer {
@@ -663,10 +666,8 @@ header {
 .viewProjectButton {
       padding: 10px 20px;
       width: 150px;
-      /*background-image: linear-gradient(to bottom right, #cb1860, #d35b2b);
-      border: 1px solid rgba(255, 255, 255, 0);*/
-      /*border: 1px solid white;*/
       border-image: linear-gradient(to bottom right, #cb1860, #d35b2b);
+      background-image: linear-gradient(to bottom right, #cb186000, #d35b2b00);
       display: inline-block;
       font-family: 'NeueMontreal';
       font-weight: 500;
@@ -681,12 +682,9 @@ header {
 }
 
 .viewProjectButton:hover {
-    /*background-image: linear-gradient(to bottom right, #00000000, #00000000);
-    border: 1px solid white;*/
     font-family: 'NeueMontreal';
     font-weight: 900;
     background-image: linear-gradient(to bottom right, #cb1860, #d35b2b);
-      border: 1px solid rgba(255, 255, 255, 0);
 }
 
 .viewProjectButton:focus {
@@ -935,7 +933,7 @@ footer {
 }
 
 .hover-1 {
-    background: linear-gradient(#d35b2b 0 0) var(--p,0)/var(--p,0) no-repeat;
+    background: linear-gradient(to bottom right,#cb1860, #d35b2b) var(--p,0)/var(--p,0) no-repeat;
     transition: .4s,background-position 0s;
   }
   .hover-1:hover {
