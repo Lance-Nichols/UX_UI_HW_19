@@ -67,7 +67,6 @@
         text-align: center;
     }
     #profile {
-        /*border: 1px solid salmon;*/
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -82,18 +81,25 @@
         background-size: cover;
         height: 380px;
         width: 380px;
+        border: 1px solid white;
     }
     
-    #profileIntro p {
+    #profileIntro p, #profileIntro h3 {
         font-size: 1em;
-        padding: 20px;
+
     }
     .profileContent {
         display: block;
+        padding: 20px;
     }
 
     #diamonShape {
         height: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #diamonShapeContact {
+        height: 20px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -141,7 +147,7 @@
         height: 80vh;
     }
     .sectionHeading {
-        font-size: 5em;
+        font-size: 3.5em;
     }
     .linkItemNav a {
         padding-right: 20px;
@@ -153,7 +159,7 @@
     }
     #profilePic {
         height: 550px;
-        width: 550px;
+        width: 550px !important;
         z-index: 1;
         position: relative;
         right: -10px;
@@ -224,6 +230,9 @@
         padding: 15px;
         margin-left: 5px;
         margin-right: 5px;
+    }
+    .menuItem {
+        font-size: 7em;
     }
   }
 
@@ -331,6 +340,12 @@
     }
     .menuItem {
         font-size: 10em;
+    }
+    #profileIntro {
+        margin-top: 20px;
+    }
+    .sectionHeading {
+        font-size: 5em;
     }
     
   }  
@@ -671,7 +686,6 @@ header {
 .viewProjectButton {
       padding: 10px 20px;
       width: 150px;
-      border-image: linear-gradient(to bottom right, #cb1860, #d35b2b);
       background-image: linear-gradient(to bottom right, #cb186000, #d35b2b00);
       display: inline-block;
       font-family: 'NeueMontreal';
@@ -679,6 +693,7 @@ header {
       letter-spacing: 1px;
       margin: 10px;
       cursor: pointer;
+      border-image: linear-gradient(to bottom right, #cb1860, #d35b2b);
       color: white;
       border-width: 1px;
       border-style: solid;
@@ -889,7 +904,6 @@ footer {
     background-color: #000000;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 3px 4px 65px 10px rgba(0, 0, 0, 0.54);
-    margin-top: 20px;
     border: 1px solid white;
 }
 #contactMe {
@@ -910,6 +924,11 @@ footer {
         align-content: center;
         padding-bottom: 50px;
         margin-top: -30px;
+}
+#diamonShapeContact {
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #contactList {
@@ -958,6 +977,12 @@ footer {
     top: 40px;
     right: 40px;
     z-index: 11;
+    cursor: pointer;
+    border-image: linear-gradient(to bottom right, #cb1860, #d35b2b);
+    border-width: 1px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-radius: 0px;
 }
 
 .toggle a {
